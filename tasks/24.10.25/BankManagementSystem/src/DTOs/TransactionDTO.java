@@ -11,15 +11,25 @@ public class TransactionDTO {
 
 
     private String userDescription;
-    private double userBalance;
-    private String cardNumber;
+    private double senderBalance;
+    private double receiverBalance;
+    private String senderCardNumber;
+    private String receiverCardNumber;
 
-    public String getCardNumber() {
-        return cardNumber;
+    public String getReceiverCardNumber() {
+        return receiverCardNumber;
     }
 
-    public void setCardNumber(String cardNumber) {
-        this.cardNumber = cardNumber;
+    public void setReceiverCardNumber(String receiverCardNumber) {
+        this.receiverCardNumber = receiverCardNumber;
+    }
+
+    public String getSenderCardNumber() {
+        return senderCardNumber;
+    }
+
+    public void setSenderCardNumber(String senderCardNumber) {
+        this.senderCardNumber = senderCardNumber;
     }
 
     private String transactionDate;
@@ -28,14 +38,24 @@ public class TransactionDTO {
         transactionDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
     }
 
-
-
-    public double getUserBalance() {
-        return userBalance;
+    public void setTransactionDate(String transactionDate) {
+        this.transactionDate = transactionDate;
     }
 
-    public void setUserBalance(double userBalance) {
-        this.userBalance = userBalance;
+    public double getReceiverBalance() {
+        return receiverBalance;
+    }
+
+    public void setReceiverBalance(double receiverBalance) {
+        this.receiverBalance = receiverBalance;
+    }
+
+    public double getSenderBalance() {
+        return senderBalance;
+    }
+
+    public void setSenderBalance(double senderBalance) {
+        this.senderBalance = senderBalance;
     }
 
     public String getTransactionDate() {

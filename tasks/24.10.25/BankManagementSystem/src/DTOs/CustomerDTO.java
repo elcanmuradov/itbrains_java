@@ -11,7 +11,14 @@ public class CustomerDTO {
 
     private String name;
 
+    @Override
+    public String toString() {
+        return name + ',' + surname + ',' + email + ',' + phoneNumber + ',' + cardNumber;
+    }
+
     private String surname;
+
+    private int birthDate;
 
     private String notificationType;
 
@@ -25,9 +32,16 @@ public class CustomerDTO {
     // private String cardExpiryDate;
     private String pinCode;
 
-    private ArrayList<TransactionDTO> transactions = new ArrayList<>();
 
     private double balance = 1000;
+
+    public int getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(int birthDate) {
+        this.birthDate = birthDate;
+    }
 
     public CustomerDTO() {
         customerId = id++;
@@ -101,6 +115,7 @@ public class CustomerDTO {
     public int getAttempts() {
         return attempts;
     }
+
     public void setAttempts(int attempts) {
         this.attempts = attempts;
     }
@@ -113,17 +128,13 @@ public class CustomerDTO {
         isBlocked = blocked;
     }
 
-    public ArrayList<TransactionDTO> getTransactions() {
-        return transactions;
-    }
 
     public double getBalance() {
         return balance;
     }
+
     public void setBalance(double balance) {
         this.balance = balance;
     }
-    public void addTransaction(TransactionDTO transaction) {
-        transactions.add(transaction);
-    }
+
 }

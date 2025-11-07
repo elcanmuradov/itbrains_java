@@ -1,18 +1,21 @@
+
+import Exceptions.InvalidAmountException;
+import Services.FileService;
 import Services.*;
 
+import java.io.IOException;
+
 public class Main {
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws InvalidAmountException, IOException {
         Notification email = new Email();
         Notification sms = new SMS();
-        CustomerService customerService = new CustomerService();
-        TransactionService transactionService = new TransactionService();
-        TransferService transferService = new TransferService(email,sms);
+        FileService fileService = new FileService();
+        CustomerService customerService = new CustomerService(fileService);
+        TransactionService transactionService = new TransactionService(fileService);
+        TransferService transferService = new TransferService(email, sms, fileService);
         ApplicationService applicationService = new ApplicationService(customerService, transactionService, transferService);
         applicationService.startApplication();
 
     }
 }
-/*
-Do sms/email notification
-
- */

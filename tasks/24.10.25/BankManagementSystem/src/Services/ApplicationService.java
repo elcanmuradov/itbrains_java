@@ -1,5 +1,8 @@
 package Services;
 
+import Exceptions.InvalidAmountException;
+
+import java.io.IOException;
 import java.util.Scanner;
 
 import static Services.CustomerService.loggedInCustomer;
@@ -16,7 +19,7 @@ public class ApplicationService {
         this.transferService = transferService;
     }
 
-    public void startApplication() {
+    public void startApplication() throws InvalidAmountException, IOException {
         while (true) {
 
             int choice;
