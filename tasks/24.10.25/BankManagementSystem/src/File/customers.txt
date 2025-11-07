@@ -1,0 +1,4 @@
+Elcan,Muradov,4444333322221111,1111,SMS,null,0506379198,2004,30000.0
+Elmir,Muradzade,1111222233334444,1111,Email,elmir@gmail.com,null,2007,20000.0
+Ali,Memmedov,1234123412341234,1111,Email,ali@gmail.com,null,2000,20000.0
+Ayxan,Mehdiyev,4321432143214321,1111,Email,ayxan@gmail.com,null,2005,50000.0
