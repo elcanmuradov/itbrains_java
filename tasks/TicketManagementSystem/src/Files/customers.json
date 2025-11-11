@@ -1,0 +1,19 @@
+[ {
+  "customerId" : 1,
+  "name" : "Elcan",
+  "email" : "elcan@gmail.com",
+  "phone" : "0506379198",
+  "notificationChannel" : "SMS"
+}, {
+  "customerId" : 2,
+  "name" : "Elmir",
+  "email" : "elmir@gmail.com",
+  "phone" : "0557921896",
+  "notificationChannel" : "EMAIL"
+}, {
+  "customerId" : 3,
+  "name" : "Elnur",
+  "email" : "elnur@gmail.com",
+  "phone" : "0556379198",
+  "notificationChannel" : "EMAIL"
+} ]

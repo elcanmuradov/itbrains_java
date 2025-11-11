@@ -1,0 +1,9 @@
+[ {
+  "title" : "Kurtlar Vadisi",
+  "id" : 1,
+  "genre" : "ACTION",
+  "rating" : 5.0,
+  "durationMinutes" : 133,
+  "price" : 10.0,
+  "availableSeats" : 29
+} ]

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="caea43b9-23c5-4eed-a89a-3adb136cee62" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DTO/CustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DTO/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DTO/MovieDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DTO/NotificationChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DTO/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DTO/TicketDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/AlreadyCancelledException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/DuplicateMovieException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/DuplicateTicketException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/NoSeatsAvailableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/TicketNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Files/customers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Files/movies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Files/tickets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/ApplicationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/Functions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/MovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/jackson-annotations-2.15.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/jackson-core-2.15.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/jackson-databind-2.15.2.jar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Exception" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;elcanmuradov&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/elcanmuradov/itbrains_java.git&quot;,
+    &quot;accountId&quot;: &quot;2a018ac5-274b-407e-b406-9dc21fdb4489&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="35KFAjd6HqI3Wc47LFrsPFxMOCy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Coding\itbrains_java\tasks\TicketManagementSystem\src" />
+      <recent name="C:\Coding\itbrains_java\tasks\TicketManagementSystem" />
+      <recent name="C:\Coding\itbrains_java\tasks\TicketManagementSystem\src\lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="TicketManagementSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="caea43b9-23c5-4eed-a89a-3adb136cee62" name="Changes" comment="" />
+      <created>1762850715801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762850715801</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TicketManagementSystem$Main.ic" NAME="Main Coverage Results" MODIFIED="1762853706775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+</project>
